@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Important steps I did to create this
+
+1. create new angular 2+ app  using webstorm.
+
+2. ng new [app name] would prob also work
+
+3. ng generate module app-routing --flat --module=app
+(--flat puts the file in src/app instead of its own folder.
+--module=app tells the CLI to register it in the imports array of the AppModule.)
+
+4. 
+
