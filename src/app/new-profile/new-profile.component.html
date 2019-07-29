@@ -1,1 +1,7 @@
-<p>new-profile works!</p>
+<label>
+  <input [(ngModel)]="profile.firstName" placeholder="First Name" (keydown.enter)="submit($event)">
+  <input [(ngModel)]="profile.middleName" placeholder="Middle Name" (keydown.enter)="submit($event)">
+  <input [(ngModel)]="profile.lastName" placeholder="Last Name" (keydown.enter)="submit($event)">
+  <input [(ngModel)]="profile.occupation" placeholder="Occupation" (keydown.enter)="submit($event)">
+<!--  <input [(ngModel)]="skills" placeholder="Last Name" (keydown.enter)="submit($event)">-->
+</label>
