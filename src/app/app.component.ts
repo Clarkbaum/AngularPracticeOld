@@ -6,19 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularFullStack';
-  values = [];
-  value = '';
 
-  onKey(event: any) {
-    if (event.key !== 'Enter') {
-      this.value = event.target.value;
-    }
-
-  }
-
-  submit(event: any) {
-      this.values.push(this.value);
-      event.target.value = '';
-  }
 }
