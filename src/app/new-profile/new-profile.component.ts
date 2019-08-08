@@ -8,14 +8,11 @@ import {Profile} from '../shared/models/profile.model';
 })
 export class NewProfileComponent {
 
-  title = 'AngularFullStack';
   values = [];
-  value = '';
   profile: Profile = new Profile();
 
   submit(event: any) {
-    this.values.push(this.value);
-    event.target.value = '';
+    this.values.push(this.profile);
   }
 
 }

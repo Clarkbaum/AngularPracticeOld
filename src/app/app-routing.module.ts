@@ -5,7 +5,8 @@ import {ListProfilesComponent} from './list-profiles/list-profiles.component';
 
 const routes: Routes = [
   { path: 'new-profile', component: NewProfileComponent},
-  { path: 'list-profiles', component: ListProfilesComponent}
+  { path: 'list-profiles', component: ListProfilesComponent},
+  { path: '', component: ListProfilesComponent}
 ];
 
 @NgModule({
